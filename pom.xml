@@ -12,6 +12,8 @@
         <module>dubbo-container</module>
         <module>dubbo-common</module>
         <module>dubbo-common</module>
+        <module>dubbo-common-v1</module>
+        <module>dubbo-common</module>
     </modules>
 
 

@@ -15,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo-common" target="1.5" />
+      <module name="dubbo-common-v1" target="1.5" />
       <module name="dubbocommon" target="1.5" />
     </bytecodeTargetLevel>
   </component>
