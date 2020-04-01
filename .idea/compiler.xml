@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-common" />
-        <module name="dubbo-container-api" />
-        <module name="dubbo-container-log4j" />
-        <module name="dubbo-container-logback" />
-        <module name="dubbo-container-spring" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dubbo-common" target="1.5" />
       <module name="dubbo-common-v1" target="1.5" />
       <module name="dubbocommon" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-common" options="-proc:none" />
+      <module name="dubbo-container-api" options="-proc:none" />
+      <module name="dubbo-container-log4j" options="-proc:none" />
+      <module name="dubbo-container-logback" options="-proc:none" />
+      <module name="dubbo-container-spring" options="-proc:none" />
+    </option>
   </component>
 </project>
