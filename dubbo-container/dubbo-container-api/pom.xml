@@ -19,11 +19,11 @@
     <parent>
         <groupId>org.apache.dubbo</groupId>
         <artifactId>dubbo-container</artifactId>
-        <version>${revision}</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>dubbo-container-api</artifactId>
     <packaging>jar</packaging>
-    <name>${project.artifactId}</name>
+    <name>1.0.0-SNAPSHOT</name>
     <description>The container module of dubbo project</description>
     <properties>
         <skip_maven_deploy>false</skip_maven_deploy>
@@ -32,7 +32,19 @@
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-common</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-common</artifactId>
+            <version>2.7.4-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-common</artifactId>
+            <version>2.7.4-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

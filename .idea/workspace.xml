@@ -2,36 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8975f51d-4394-4671-8c4e-5b8c9cc7a728" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/CreateThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/DaemonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/Daemons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/DaemonsDontRunFinally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/InterruptDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/MonitorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/Mutex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/MutexDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/Outter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/PackageDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/StaticDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/T.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/youku/test/TestLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/com/alibaba/dubbo/common/extension/Activate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/src/main/java/org/apache/dubbo/container/spring/SpringContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-test/dubbo-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/ReentrantTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/4.10/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/4.10/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-common/dubbo-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/dubbo-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Extension.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Extension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Version.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanSerializeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanSerializeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/ClassGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/ClassGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/AbstractCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/AbstractCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/AdaptiveCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/AdaptiveCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/CtClassBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/CtClassBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/JdkCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/JdkCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/AbstractPrefixConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/AbstractPrefixConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/ConfigurationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/ConfigurationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/InmemoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/InmemoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/CommonConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/CommonConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/FilterConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/FilterConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/QosConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/QosConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/RegistryConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/RegistryConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/RemotingConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/RemotingConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/Activate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/Activate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/Adaptive.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/Adaptive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/AdaptiveClassCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/AdaptiveClassCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/DisableInject.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/DisableInject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/ExtensionLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/ExtensionLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/SPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/SPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/Bytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/Bytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeStringWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeStringWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/GenericJSONConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/GenericJSONConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/J2oVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/J2oVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSONReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSONReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSONWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSONWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLoggerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLoggerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j/Log4jLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j/Log4jLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j/Log4jLoggerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j/Log4jLoggerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j2/Log4j2LoggerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j2/Log4j2LoggerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/slf4j/Slf4jLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/slf4j/Slf4jLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/AbortPolicyWithReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/AbortPolicyWithReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/cached/CachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/cached/CachedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/eager/EagerThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/eager/EagerThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/eager/EagerThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/eager/EagerThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/fixed/FixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/fixed/FixedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/limited/LimitedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadpool/support/limited/LimitedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/timer/HashedWheelTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/timer/HashedWheelTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ClassHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ClassHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/CollectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/CollectionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/CompatibleTypeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/CompatibleTypeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ExecutorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ExecutorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/IOUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/IOUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/JVMUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/JVMUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/NetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/NetUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/PojoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/PojoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/UrlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/UrlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.common.compiler.Compiler" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.common.extension.ExtensionFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.common.logger.LoggerAdapter" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.common.status.StatusChecker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.common.store.DataStore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal/org.apache.dubbo.common.threadpool.ThreadPool" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Container.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/target/classes/org/apache/dubbo/container/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-container/dubbo-container-api/target/classes/org/apache/dubbo/container/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/ConcurrentHashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/ConcurrentHashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/CreateThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/CreateThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/DaemonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/DaemonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/Daemons.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/Daemons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/DaemonsDontRunFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/DaemonsDontRunFinally.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/InterruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/InterruptDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/JoinDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/JoinDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/MonitorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/MonitorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/Mutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/Mutex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/MutexDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/MutexDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/Outter.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/Outter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/PackageDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/PackageDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/StaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/StaticDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/SynchronizedDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/SynchronizedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/T.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/TestLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/TestLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/WorkerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/WorkerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/youku/test/WorkerInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/WorkerInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/ADaemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/ConcurrentHashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/CreateThreadDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/CreateThreadDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/CreateThreadDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/CreateThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Daemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/DaemonDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/DaemonDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/DaemonSpawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Daemons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/DaemonsDontRunFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/InterruptDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/InterruptDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/InterruptDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/JoinDemo$JoinThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/JoinDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/MonitorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Mutex$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Mutex$Sync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Mutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/MutexDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Outter$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Outter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/PackageDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Personer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/StaticDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/SynchronizedDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/TestLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/WorkerInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/WorkerInterfaceTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/youku/test/WorkerInterfaceTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,6 +182,7 @@
     <ignored path="$PROJECT_DIR$/dubbo-common-v1/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-common/.gradle/" />
     <ignored path="$PROJECT_DIR$/dubbo-common/build/" />
+    <ignored path="$PROJECT_DIR$/dubbo-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +211,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+            <state relative-caret-position="222">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1441#1452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/ExtensionLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="624" selection-start-line="624" selection-end-line="624" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-spring/src/main/java/org/apache/dubbo/container/spring/SpringContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,19 +246,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/extension/ExtensionLoader.class">
+        <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/LoggerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/ConcurrentHashMapTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jdk/JdkLoggerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="45">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,51 +267,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+        <entry file="file://$PROJECT_DIR$/dubbo-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="3403" column="49" lean-forward="true" selection-start-line="3403" selection-start-column="49" selection-end-line="3403" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/PackageDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/MutexDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/MonitorDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="390">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -160,6 +280,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -168,9 +289,18 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>run(</find>
+      <find>container</find>
+      <find>common</find>
+      <find>spring</find>
+      <find>dubbo-</find>
+      <find>dubbo-common</find>
+      <find>dubbo-dependencies-bom</find>
+      <find>j</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>containers</replace>
+      <replace>container</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,39 +310,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/common/io/UnsafeByteArrayInputStream.java" />
-        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanDescriptor.java" />
-        <option value="$PROJECT_DIR$/dubbo-container/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-common/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-api/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-log4j/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Container.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WorkerInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/WorkerInterfaceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/MonitorDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/InterruptDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/JoinDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/Outter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/DaemonDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/DaemonsDontRunFinally.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/CreateThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/Daemons.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/Mutex.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/T.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/StaticDemo.java" />
-        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/AbstractPrefixConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/youku/test/Count.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/TestLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/MutexDemo.java" />
         <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/PackageDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/youku/test/ConcurrentHashMapTest.java" />
+        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/src/main/java/SpringContainer.java" />
+        <option value="$PROJECT_DIR$/dubbo-container/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Container.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/com/alibaba/dubbo/common/extension/Activate.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/SPI.java" />
+        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-container/dubbo-container-spring/src/main/java/org/apache/dubbo/container/spring/SpringContainer.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Node.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j2/Log4j2Logger.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Wrapper.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j2/Log4j2LoggerAdapter.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/URL.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/CommonConstants.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/FilterConstants.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/QosConstants.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/RegistryConstants.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/RemotingConstants.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/Configuration.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/InmemoryConfiguration.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/util/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/CollectionUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/NetUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/ConfigurationUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeStringWriter.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/Logger.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/LoggerFactory.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLoggerAdapter.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/support/FailsafeLogger.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Version.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/Environment.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/DisableInject.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/ReflectUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Extension.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/URLBuilder.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/compiler/support/AbstractCompiler.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/LoggerAdapter.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/JSONObject.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/status/support/StatusUtils.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/store/support/SimpleDataStore.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/timer/HashedWheelTimer.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/AbstractPrefixConfiguration.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Mixin.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-common/dubbo-common.iml" />
+        <option value="$PROJECT_DIR$/dubbo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/slf4j/Slf4jLogger.java" />
+        <option value="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/ExtensionLoader.java" />
       </list>
     </option>
   </component>
@@ -222,6 +370,36 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dubbo-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
@@ -235,8 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,58 +423,28 @@
             <path>
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dubbo-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dubbo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dubbo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dubbo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
@@ -315,14 +461,20 @@
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-container" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-container-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-container-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-container" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-container-spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-container" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-container-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-container-spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -330,7 +482,7 @@
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-container" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-container-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-container-spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -339,72 +491,53 @@
               <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-container" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-container-api" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-container-spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-container" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-container-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dubbo-cheetah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo-cheetah" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585741760284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587623665345" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47586206" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/youku/test" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.apache.dubbo.common.test" />
+      <recent name="org.apache.dubbo.common" />
+      <recent name="org.apache.dubbo.common.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/dubbo-common/src/main/resources/META-INF/dubbo/internal" />
+      <recent name="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io" />
       <recent name="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common" />
-      <recent name="$PROJECT_DIR$/dubbo-common/src/main" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config" />
+      <recent name="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger" />
+      <recent name="$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,13 +552,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentHashMapTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ConcurrentHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.youku.test.ConcurrentHashMapTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ConcurrentHashMapTest" />
       <module name="dubbo-cheetah" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.youku.test.*" />
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Count" />
+      <module name="dubbo-cheetah" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HashMapTest" />
+      <module name="dubbo-cheetah" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,38 +605,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.youku.test.PackageDemo" />
+    <configuration name="ReentrantTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ReentrantTest" />
       <module name="dubbo-cheetah" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.youku.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.youku.test.Test" />
-      <module name="dubbo-cheetah" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.youku.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.youku.test.TestLock" />
-      <module name="dubbo-cheetah" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.youku.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -487,11 +620,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrentHashMapTest" />
-        <item itemvalue="Application.PackageDemo" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestLock" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Count" />
+        <item itemvalue="Application.ReentrantTest" />
+        <item itemvalue="Application.HashMapTest" />
+        <item itemvalue="Application.ConcurrentHashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -514,18 +647,31 @@
       <workItem from="1577610303815" duration="250000" />
       <workItem from="1581428096096" duration="178000" />
       <workItem from="1583130199967" duration="1631000" />
-      <workItem from="1585021248104" duration="11967000" />
+      <workItem from="1585021248104" duration="37457000" />
+      <workItem from="1587470446139" duration="8690000" />
+      <workItem from="1587544965989" duration="586000" />
+      <workItem from="1587546461941" duration="624000" />
+      <workItem from="1587547145589" duration="5272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55675000" />
+    <option name="totallyTimeSpent" value="96337000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28836834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30936995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -534,22 +680,23 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35753426" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35753426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49919224" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32956383" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Gradle" order="6" />
@@ -557,6 +704,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32951543" />
+      <window_info anchor="right" x="0" y="0" width="270" height="600" id="Documentation" order="11" side_tool="true" weight="0.32956383" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,27 +714,92 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/extension/ExtensionLoader.class</url>
           <line>548</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/HashMapTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-test/src/main/java/org/apache/dubbo/test/HashMapTest.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/ExtensionLoader.java</url>
+          <line>307</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java</url>
+          <line>21</line>
+          <properties field="CONTAINER_KEY" class="org.apache.dubbo.container.Main" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="this.cachedClasses.get()" language="JAVA" />
+        <watch expression="cachedInstances.get(&quot;spring&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>cachedInstances.get(&quot;spring&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getExtensionClasses()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SpringContainer.class.getSimpleName()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.dubbo.container.spring.SpringContainer</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SpringContainer.c</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.apache.dubbo.container.spring.SpringContainer</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SpringContainer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>loader.getExtension(args[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>container</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SPRING_CONFIG</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>this.cachedClasses.get()</expression-string>
         <language-id>JAVA</language-id>
@@ -595,444 +808,317 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/Outter.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/PropertiesConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/SystemConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/ConfigurationUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/AbstractPrefixConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/JoinDemo.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/EnvironmentConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/com/alibaba/dubbo/common/extension/Activate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/CreateThreadDemo.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Mixin.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanSerializeUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/NoSuchPropertyException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/ClassGenerator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/bytecode/NoSuchMethodException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/beanutil/JavaBeanAccessor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/Resetable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#148#317#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/DaemonsDontRunFinally.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16.jar!/org/apache/log4j/Level.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/extension/SPI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/constants/CommonConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/Daemons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="165" column="29" selection-start-line="165" selection-start-column="29" selection-end-line="165" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
-            <element signature="e#5559#5560#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
+            <element signature="e#0#4483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeStringWriter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/Bytes.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/StreamUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/json/GenericJSONConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        <state relative-caret-position="60">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadlocal/InternalThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="e#0#2372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/threadlocal/InternalThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="199" column="17" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeStringReader.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLogger.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/slf4j/Slf4jLoggerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <element signature="e#0#3202#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLoggerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/dubbo-common.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2424">
+          <caret line="338" column="27" selection-start-line="338" selection-start-column="27" selection-end-line="338" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j2/Log4j2LoggerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <element signature="e#0#1721#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jcl/JclLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jdk/JdkLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="75">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j/Log4jLoggerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j/Log4jLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="e#0#3224#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jdk/JdkLoggerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/DubboAppender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="195">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
-            <element signature="e#0#4721#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/slf4j/Slf4jLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1546">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#0#6056#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/support/FailsafeLogger.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/log4j2/Log4j2Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1211">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#4837#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/io/UnsafeByteArrayInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#3051#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/DaemonDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/StaticDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="489" column="30" selection-start-line="489" selection-start-column="30" selection-end-line="489" selection-end-column="30" />
-          <folding>
-            <element signature="e#17535#17536#0" expanded="true" />
-            <element signature="e#17577#17578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1026" column="26" selection-start-line="1026" selection-start-column="26" selection-end-line="1026" selection-end-column="26" />
-          <folding>
-            <element signature="e#48487#48488#0" expanded="true" />
-            <element signature="e#48531#48532#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/constants/CommonConstants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10020">
-          <caret line="712" column="25" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/utils/ConfigUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-          <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/utils/Holder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/Count.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/TestLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="1199" column="12" selection-start-line="1199" selection-start-column="12" selection-end-line="1199" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/Mutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="78" column="64" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/Person.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/jdk/JdkLoggerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/config/AbstractPrefixConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#1918#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/SynchronizedDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/MutexDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/MonitorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/extension/SPI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="21" />
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/logger/LoggerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="3403" column="49" lean-forward="true" selection-start-line="3403" selection-start-column="49" selection-end-line="3403" selection-end-column="49" />
+        <state relative-caret-position="330">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Container.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-spring/src/main/java/org/apache/dubbo/container/spring/SpringContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo-common/2.7.4-SNAPSHOT/dubbo-common-2.7.4-20190924.092835-75.jar!/org/apache/dubbo/common/extension/ExtensionLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+        <state relative-caret-position="112">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/PackageDemo.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/utils/Holder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="180">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="740" column="14" selection-start-line="740" selection-start-column="14" selection-end-line="740" selection-end-column="14" />
+        <state relative-caret-position="345">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/youku/test/ConcurrentHashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/dubbo-common/src/main/java/org/apache/dubbo/common/extension/ExtensionLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="277">
+          <caret line="624" selection-start-line="624" selection-end-line="624" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api/src/main/java/org/apache/dubbo/container/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1441#1452#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1046,7 +1132,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47586206" />
               </list>
             </option>
           </splitter-proportions>
@@ -1054,11 +1140,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.47586206" />
               </list>
             </option>
           </splitter-proportions>
@@ -1089,12 +1175,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubbo-cheetah</last-edited>
+          <last-edited>dubbo-container-spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.47586206" />
               </list>
             </option>
           </splitter-proportions>
@@ -1114,7 +1199,18 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: cglib:cglib-nodep:2.2</last-edited>
+          <last-edited>log4j-1.2.16</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47586206" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

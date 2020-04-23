@@ -33,8 +33,8 @@ import java.util.concurrent.atomic.AtomicLong;
  * <h3>Tick Duration</h3>
  * <p>
  * As described with 'approximated', this timer does not execute the scheduled
- * {@link org.apache.dubbo.common.timer.TimerTask} on time.  {@link HashedWheelTimer}, on every tick, will
- * check if there are any {@link org.apache.dubbo.common.timer.TimerTask}s behind the schedule and execute
+ * {@link TimerTask} on time.  {@link HashedWheelTimer}, on every tick, will
+ * check if there are any {@link TimerTask}s behind the schedule and execute
  * them.
  * <p>
  * You can increase or decrease the accuracy of the execution timing by
@@ -46,7 +46,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * <h3>Ticks per Wheel (Wheel Size)</h3>
  * <p>
  * {@link HashedWheelTimer} maintains a data structure called 'wheel'.
- * To put simply, a wheel is a hash table of {@link org.apache.dubbo.common.timer.TimerTask}s whose hash
+ * To put simply, a wheel is a hash table of {@link TimerTask}s whose hash
  * function is 'dead line of the task'.  The default number of ticks per wheel
  * (i.e. the size of the wheel) is 512.  You could specify a larger value
  * if you are going to schedule a lot of timeouts.
@@ -150,7 +150,7 @@ public class HashedWheelTimer implements Timer {
      *
      * @param threadFactory a {@link ThreadFactory} that creates a
      *                      background {@link Thread} which is dedicated to
-     *                      {@link org.apache.dubbo.common.timer.TimerTask} execution.
+     *                      {@link TimerTask} execution.
      * @throws NullPointerException if {@code threadFactory} is {@code null}
      */
     public HashedWheelTimer(ThreadFactory threadFactory) {
@@ -162,7 +162,7 @@ public class HashedWheelTimer implements Timer {
      *
      * @param threadFactory a {@link ThreadFactory} that creates a
      *                      background {@link Thread} which is dedicated to
-     *                      {@link org.apache.dubbo.common.timer.TimerTask} execution.
+     *                      {@link TimerTask} execution.
      * @param tickDuration  the duration between tick
      * @param unit          the time unit of the {@code tickDuration}
      * @throws NullPointerException     if either of {@code threadFactory} and {@code unit} is {@code null}
@@ -178,7 +178,7 @@ public class HashedWheelTimer implements Timer {
      *
      * @param threadFactory a {@link ThreadFactory} that creates a
      *                      background {@link Thread} which is dedicated to
-     *                      {@link org.apache.dubbo.common.timer.TimerTask} execution.
+     *                      {@link TimerTask} execution.
      * @param tickDuration  the duration between tick
      * @param unit          the time unit of the {@code tickDuration}
      * @param ticksPerWheel the size of the wheel
@@ -196,7 +196,7 @@ public class HashedWheelTimer implements Timer {
      *
      * @param threadFactory      a {@link ThreadFactory} that creates a
      *                           background {@link Thread} which is dedicated to
-     *                           {@link org.apache.dubbo.common.timer.TimerTask} execution.
+     *                           {@link TimerTask} execution.
      * @param tickDuration       the duration between tick
      * @param unit               the time unit of the {@code tickDuration}
      * @param ticksPerWheel      the size of the wheel
@@ -328,7 +328,7 @@ public class HashedWheelTimer implements Timer {
             throw new IllegalStateException(
                     HashedWheelTimer.class.getSimpleName() +
                             ".stop() cannot be called from " +
-                            org.apache.dubbo.common.timer.TimerTask.class.getSimpleName());
+                            TimerTask.class.getSimpleName());
         }
 
         if (!WORKER_STATE_UPDATER.compareAndSet(this, WORKER_STATE_STARTED, WORKER_STATE_SHUTDOWN)) {
@@ -366,7 +366,7 @@ public class HashedWheelTimer implements Timer {
     }
 
     @Override
-    public Timeout newTimeout(org.apache.dubbo.common.timer.TimerTask task, long delay, TimeUnit unit) {
+    public Timeout newTimeout(TimerTask task, long delay, TimeUnit unit) {
         if (task == null) {
             throw new NullPointerException("task");
         }
@@ -550,7 +550,7 @@ public class HashedWheelTimer implements Timer {
                 AtomicIntegerFieldUpdater.newUpdater(HashedWheelTimeout.class, "state");
 
         private final HashedWheelTimer timer;
-        private final org.apache.dubbo.common.timer.TimerTask task;
+        private final TimerTask task;
         private final long deadline;
 
         @SuppressWarnings({"unused", "FieldMayBeFinal", "RedundantFieldInitialization"})
@@ -574,7 +574,7 @@ public class HashedWheelTimer implements Timer {
          */
         HashedWheelBucket bucket;
 
-        HashedWheelTimeout(HashedWheelTimer timer, org.apache.dubbo.common.timer.TimerTask task, long deadline) {
+        HashedWheelTimeout(HashedWheelTimer timer, TimerTask task, long deadline) {
             this.timer = timer;
             this.task = task;
             this.deadline = deadline;
@@ -586,7 +586,7 @@ public class HashedWheelTimer implements Timer {
         }
 
         @Override
-        public org.apache.dubbo.common.timer.TimerTask task() {
+        public TimerTask task() {
             return task;
         }
 

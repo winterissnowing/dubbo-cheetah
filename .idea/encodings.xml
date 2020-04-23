@@ -3,10 +3,12 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-container" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-container/dubbo-container-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-container/dubbo-container-log4j" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-container/dubbo-container-logback" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-container/dubbo-container-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-test" charset="UTF-8" />
   </component>
 </project>

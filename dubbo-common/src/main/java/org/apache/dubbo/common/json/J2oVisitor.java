@@ -17,6 +17,7 @@
 package org.apache.dubbo.common.json;
 
 import org.apache.dubbo.common.bytecode.Wrapper;
+import org.apache.dubbo.common.utils.Stack;
 import org.apache.dubbo.common.utils.StringUtils;
 
 import java.io.IOException;
@@ -59,7 +60,7 @@ class J2oVisitor implements JSONVisitor {
 
     private JSONConverter mConverter;
 
-    private java.util.Stack<Object> mStack = new java.util.Stack<Object>();
+    private Stack<Object> mStack = new Stack<Object>();
 
     J2oVisitor(Class<?> type, JSONConverter jc) {
         mType = type;

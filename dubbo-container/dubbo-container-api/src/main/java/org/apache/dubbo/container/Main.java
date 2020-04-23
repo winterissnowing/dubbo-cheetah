@@ -6,6 +6,11 @@ import org.apache.dubbo.common.logger.LoggerFactory;
 import org.apache.dubbo.common.utils.ArrayUtils;
 import org.apache.dubbo.common.utils.ConfigUtils;
 
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -14,7 +19,7 @@ import static org.apache.dubbo.common.constants.CommonConstants.COMMA_SPLIT_PATT
 
 public class Main {
 
-    public static final String CONTAINER_KEY  = "dubbo.container";
+    public static final String CONTAINER_KEY = "dubbo.container";
 
     public static final String SHUTDOWN_HOOK_KEY = "dubbo.shutdown.hook";
 
@@ -27,24 +32,60 @@ public class Main {
     private static final Condition STOP = LOCK.newCondition();
 
     public static void main(String[] args) {
-       if (ArrayUtils.isEmpty(args)) {
-            String extName = loader.getDefaultExtensionName();
-            String config = ConfigUtils.getProperty(CONTAINER_KEY, loader.getDefaultExtensionName());
-            System.out.println(extName);
-            args = COMMA_SPLIT_PATTERN.split(config);
-       }
-       /*
+        try {
+            if (ArrayUtils.isEmpty(args)) {
+                String config = ConfigUtils.getProperty(CONTAINER_KEY, loader.getDefaultExtensionName());
+                args = COMMA_SPLIT_PATTERN.split(config);
+            }
 
-       final List<Container> containers = new ArrayList<Container>();
-        for (int i = 0; i <args.length ; i++) {
-            containers.add(loader.getExtension(args[i]));
+            final List<Container> containers = new ArrayList<Container>();
+            for (int i = 0; i < args.length; i++) {
+                containers.add(loader.getExtension(args[i]));
+            }
+            logger.info("Use container type(" + Arrays.toString(args) + ") to run dubbo service.");
+
+            if ("true".equals(System.getProperty(SHUTDOWN_HOOK_KEY))) {
+                Runtime.getRuntime().addShutdownHook(new Thread("dubbo-container-shutdown-hook") {
+                    @Override
+                    public void run() {
+                        for (Container container : containers) {
+                            try {
+                                container.stop();
+                                logger.info("Dubbo " + container.getClass().getSimpleName());
+                            } catch (Throwable t) {
+                                logger.error(t.getMessage());
+                            }
+                            try {
+                                LOCK.lock();
+                                STOP.signal();
+                            } finally {
+                                LOCK.unlock();
+                            }
+                        }
+                    }
+                });
+            }
+
+            for (Container container : containers) {
+                container.start();
+                logger.info("Dubbo " + container.getClass().getSimpleName() + " started!");
+            }
+            System.out.println(new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss]").format(new Date()) + "Dubbo service server started!");
+        } catch (RuntimeException e) {
+            logger.error(e.getMessage(), e);
+            System.exit(1);
         }
-        logger.info("Use container type(" + Arrays.toString(args) + ") to run dubbo service.");
-        */
+        try {
+            LOCK.lock();
+            STOP.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            logger.warn("Dubbo service server stoped, interrupted by other thread");
+        } finally {
+            LOCK.unlock();
+        }
 
     }
-
-
 
 
 }

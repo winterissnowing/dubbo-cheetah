@@ -16,6 +16,7 @@
  */
 package org.apache.dubbo.common.compiler.support;
 
+import org.apache.dubbo.common.compiler.Compiler;
 import org.apache.dubbo.common.extension.Adaptive;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 

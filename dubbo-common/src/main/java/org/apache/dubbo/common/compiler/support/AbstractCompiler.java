@@ -16,6 +16,8 @@
  */
 package org.apache.dubbo.common.compiler.support;
 
+import org.apache.dubbo.common.compiler.Compiler;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
